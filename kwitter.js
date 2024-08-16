@@ -1,5 +1,6 @@
-function login(){
-    username=document.getElementById("named").value; 
-    localStorage.setItem("named",username);
-    window.location="kwitter_room.html"
+function nextpg(){
+    user_name=document.getElementById("usr").value;
+    localStorage.setItem("usr",user_name);
+    window.location="kwitter_room.html";
+
 }
